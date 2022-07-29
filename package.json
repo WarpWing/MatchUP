@@ -1,0 +1,22 @@
+{
+  "name": "matchup",
+  "version": "1.0.0",
+  "description": "A LOL Stats App",
+  "main": "client/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarpWing/MatchUP.git"
+  },
+  "author": "WarpWing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarpWing/MatchUP/issues"
+  },
+  "homepage": "https://github.com/WarpWing/MatchUP#readme",
+  "devDependencies": {
+    "electron": "^19.0.10"
+  }
+}
