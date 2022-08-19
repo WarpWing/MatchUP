@@ -43,7 +43,7 @@ class Summoner:
     def sumstats(self):
         main = Tree("[green]WarpWing's Summoner Stats")
         ranked = main.add("[green]WarpWing's Ranked Stats")
-        ranked.add(f"[magenta]Division: {self.getRanked()['tier']} {self.getRanked()['rank']}")
+        ranked.add(f"[magenta]Division: {self.getRanked()['tier'].capitalize()} {self.getRanked()['rank']}")
         ranked.add(f"[cyan]LP: {self.getRanked()['leaguePoints']}")
         ranked.add(f"[green]Wins: {self.getRanked()['wins']}")
         ranked.add(f"[red]Losses: {self.getRanked()['losses']}")
